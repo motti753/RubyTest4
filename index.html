@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test Page: Don't Panic</title>
   <style>
-    li {
-      border: 1px solid orange;
+    #item-1 {
+      background: orange;
+    }
+    
+    .item {
+      border: 1px solid black;
     }
 
-    li a {
+    .item a {
       color: skyblue;
     }
 
@@ -29,13 +33,13 @@
 <body>
   <h1>I'm an h1</h1>
   <ul>
-    <li>
+    <li class="item" id="item-1">
       <a href="https://example.com/">Link</a>
     </li>
-    <li>
+    <li class="item">
       <a href="https://example.com/">Link</a>
     </li>
-    <li>
+    <li class="item">
       <a href="https://example.com/">Link</a>
     </li>
   </ul>
